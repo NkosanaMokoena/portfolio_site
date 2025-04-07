@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(90deg, #a6a6a6, #ffffff);
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 1rem;
+  padding-block: 8rem 2rem;
+  
+  .projects p,
+  h2 {
+    color: #ff5055;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: larger;
+    padding-block: 1rem;
+    color: rgb(56, 54, 54);
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    padding: 0 1rem;
+    border-left: 1px solid #ff505680;
+  }
+}

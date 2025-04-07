@@ -1,0 +1,34 @@
+header {
+  height: 100svh;
+  background-image: url('/public/images/deer.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  padding-block: 5rem 2.5rem;
+  border-top: 5px solid #ff5055;
+
+  h1 {
+    font-size: xx-large;
+    color: rgb(78, 77, 77);
+  }
+
+  .bio {
+    padding-block: 1rem;
+    max-width: 65svw;
+    font-size: larger;
+    color: rgb(78, 77, 77);
+    p {
+      padding-block: .5rem;
+    }
+  }
+
+  .profile-image img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    border-bottom: 5px solid #ff5055;
+  }
+}
